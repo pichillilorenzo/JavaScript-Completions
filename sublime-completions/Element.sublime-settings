@@ -42,16 +42,8 @@
 			"querySelectorAll(${1:selectors: DOMString})"
 		],
 		[
-			"querySelectorAll( selectors: DOMString ): NodeList\tElement",
-			"querySelectorAll(${1:selectors: DOMString})"
-		],
-		[
 			"queryAll( relativeSelectors: DOMString ): Elements\tElement",
 			"queryAll(${1:relativeSelectors: DOMString})"
-		],
-		[
-			"querySelector( selectors: DOMString ): Element\tElement",
-			"querySelector(${1:selectors: DOMString})"
 		],
 		[
 			"query( relativeSelectors: DOMString ): Element\tElement",
