@@ -84,7 +84,7 @@ class startPlugin():
 
     if int(sublime.version()) >= 3000 :
     
-      installer.install(node_variables.NODE_JS_VERSION)
+      sublime.set_timeout_async(lambda: installer.install(node_variables.NODE_JS_VERSION))
 
 mainPlugin = startPlugin()
 
