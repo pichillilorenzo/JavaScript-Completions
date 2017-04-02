@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"getDistributedNodes(): NodeList\tHTMLContentElement",
-			"getDistributedNodes()"
-		],
-		[
-			"resetStyleInheritance: boolean\tHTMLContentElement",
-			"resetStyleInheritance"
-		],
-		[
-			"select: DOMString\tHTMLContentElement",
-			"select"
-		]
-	]
-}
+{"scope":"source.js","completions":[["getDistributedNodes\t(): NodeList HTMLContentElement","getDistributedNodes()"],["resetStyleInheritance\t: boolean HTMLContentElement","resetStyleInheritance"],["select\t: DOMString HTMLContentElement","select"]]}

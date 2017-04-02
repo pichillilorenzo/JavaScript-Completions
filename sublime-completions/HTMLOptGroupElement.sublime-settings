@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"disabled: boolean\tHTMLOptGroupElement",
-			"disabled"
-		],
-		[
-			"label: DOMString\tHTMLOptGroupElement",
-			"label"
-		]
-	]
-}
+{"scope":"source.js","completions":[["disabled\t: boolean HTMLOptGroupElement","disabled"],["label\t: DOMString HTMLOptGroupElement","label"]]}

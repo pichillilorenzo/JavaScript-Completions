@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"text: DOMString\tHTMLTitleElement",
-			"text"
-		]
-	]
-}
+{"scope":"source.js","completions":[["text\t: DOMString HTMLTitleElement","text"]]}

@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"content: DocumentFragment\tHTMLTemplateElement",
-			"content"
-		]
-	]
-}
+{"scope":"source.js","completions":[["content\t: DocumentFragment HTMLTemplateElement","content"]]}

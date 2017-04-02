@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"value: DOMString\tHTMLParamElement",
-			"value"
-		],
-		[
-			"name: DOMString\tHTMLParamElement",
-			"name"
-		]
-	]
-}
+{"scope":"source.js","completions":[["value\t: DOMString HTMLParamElement","value"],["name\t: DOMString HTMLParamElement","name"]]}

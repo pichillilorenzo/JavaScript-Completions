@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"new AutocompleteErrorEvent( type: DOMString, eventInitDict?: AutocompleteErrorEventInit ): AutocompleteErrorEvent\tAutocompleteErrorEvent",
-			"new AutocompleteErrorEvent(${1:type: DOMString}, ${2:eventInitDict?: AutocompleteErrorEventInit})"
-		],
-		[
-			"AutocompleteErrorEvent( type: DOMString, eventInitDict?: AutocompleteErrorEventInit ): AutocompleteErrorEvent\tAutocompleteErrorEvent",
-			"AutocompleteErrorEvent(${1:type: DOMString}, ${2:eventInitDict?: AutocompleteErrorEventInit})"
-		],
-		[
-			"reason: AutocompleteErrorReason\tAutocompleteErrorEvent",
-			"reason"
-		]
-	]
-}
+{"scope":"source.js","completions":[["AutocompleteErrorEvent\t( type: DOMString, eventInitDict?: AutocompleteErrorEventInit ): AutocompleteErrorEvent AutocompleteErrorEvent","new AutocompleteErrorEvent(${1:type: DOMString}, ${2:eventInitDict?: AutocompleteErrorEventInit})"],["AutocompleteErrorEvent\t( type: DOMString, eventInitDict?: AutocompleteErrorEventInit ): AutocompleteErrorEvent AutocompleteErrorEvent","AutocompleteErrorEvent(${1:type: DOMString}, ${2:eventInitDict?: AutocompleteErrorEventInit})"],["reason\t: AutocompleteErrorReason AutocompleteErrorEvent","reason"]]}

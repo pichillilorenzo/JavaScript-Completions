@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"sheet: StyleSheet\tProcessingInstruction",
-			"sheet"
-		],
-		[
-			"target: DOMString\tProcessingInstruction",
-			"target"
-		]
-	]
-}
+{"scope":"source.js","completions":[["sheet\t: StyleSheet ProcessingInstruction","sheet"],["target\t: DOMString ProcessingInstruction","target"]]}

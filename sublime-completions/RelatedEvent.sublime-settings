@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"new RelatedEvent( type: DOMString, eventInitDict?: RelatedEventInit ): RelatedEvent\tRelatedEvent",
-			"new RelatedEvent(${1:type: DOMString}, ${2:eventInitDict?: RelatedEventInit})"
-		],
-		[
-			"RelatedEvent( type: DOMString, eventInitDict?: RelatedEventInit ): RelatedEvent\tRelatedEvent",
-			"RelatedEvent(${1:type: DOMString}, ${2:eventInitDict?: RelatedEventInit})"
-		],
-		[
-			"relatedTarget: EventTarget\tRelatedEvent",
-			"relatedTarget"
-		]
-	]
-}
+{"scope":"source.js","completions":[["RelatedEvent\t( type: DOMString, eventInitDict?: RelatedEventInit ): RelatedEvent RelatedEvent","new RelatedEvent(${1:type: DOMString}, ${2:eventInitDict?: RelatedEventInit})"],["RelatedEvent\t( type: DOMString, eventInitDict?: RelatedEventInit ): RelatedEvent RelatedEvent","RelatedEvent(${1:type: DOMString}, ${2:eventInitDict?: RelatedEventInit})"],["relatedTarget\t: EventTarget RelatedEvent","relatedTarget"]]}

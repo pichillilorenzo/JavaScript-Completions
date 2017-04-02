@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"outputBuffer: AudioBuffer\tAudioProcessingEvent",
-			"outputBuffer"
-		],
-		[
-			"inputBuffer: AudioBuffer\tAudioProcessingEvent",
-			"inputBuffer"
-		],
-		[
-			"playbackTime: double\tAudioProcessingEvent",
-			"playbackTime"
-		]
-	]
-}
+{"scope":"source.js","completions":[["outputBuffer\t: AudioBuffer AudioProcessingEvent","outputBuffer"],["inputBuffer\t: AudioBuffer AudioProcessingEvent","inputBuffer"],["playbackTime\t: double AudioProcessingEvent","playbackTime"]]}

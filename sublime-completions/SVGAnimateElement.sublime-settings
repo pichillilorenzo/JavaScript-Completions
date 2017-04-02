@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"getPresentationAttribute( name: DOMString ): CSSValue\tSVGAnimateElement",
-			"getPresentationAttribute(${1:name: DOMString})"
-		],
-		[
-			"className: SVGAnimatedString\tSVGAnimateElement",
-			"className"
-		],
-		[
-			"style: CSSStyleDeclaration\tSVGAnimateElement",
-			"style"
-		]
-	]
-}
+{"scope":"source.js","completions":[["getPresentationAttribute\t( name: DOMString ): CSSValue SVGAnimateElement","getPresentationAttribute(${1:name: DOMString})"],["className\t: SVGAnimatedString SVGAnimateElement","className"],["style\t: CSSStyleDeclaration SVGAnimateElement","style"]]}

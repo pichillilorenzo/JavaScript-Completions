@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"animVal: float\tSVGAnimatedNumber",
-			"animVal"
-		],
-		[
-			"baseVal: float\tSVGAnimatedNumber",
-			"baseVal"
-		]
-	]
-}
+{"scope":"source.js","completions":[["animVal\t: float SVGAnimatedNumber","animVal"],["baseVal\t: float SVGAnimatedNumber","baseVal"]]}

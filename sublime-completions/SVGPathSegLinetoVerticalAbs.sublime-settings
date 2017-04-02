@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"y: float\tSVGPathSegLinetoVerticalAbs",
-			"y"
-		]
-	]
-}
+{"scope":"source.js","completions":[["y\t: float SVGPathSegLinetoVerticalAbs","y"]]}

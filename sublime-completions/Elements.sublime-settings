@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"queryAll( relativeSelectors: DOMString ): Elements\tElements",
-			"queryAll(${1:relativeSelectors: DOMString})"
-		],
-		[
-			"query( relativeSelectors: DOMString ): Element\tElements",
-			"query(${1:relativeSelectors: DOMString})"
-		]
-	]
-}
+{"scope":"source.js","completions":[["queryAll\t( relativeSelectors: DOMString ): Elements Elements","queryAll(${1:relativeSelectors: DOMString})"],["query\t( relativeSelectors: DOMString ): Element Elements","query(${1:relativeSelectors: DOMString})"]]}

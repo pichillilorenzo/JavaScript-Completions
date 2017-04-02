@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"delayTime: AudioParam\tDelayNode",
-			"delayTime"
-		]
-	]
-}
+{"scope":"source.js","completions":[["delayTime\t: AudioParam DelayNode","delayTime"]]}

@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"span: unsigned long\tHTMLTableColElement",
-			"span"
-		]
-	]
-}
+{"scope":"source.js","completions":[["span\t: unsigned long HTMLTableColElement","span"]]}

@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"renderedBuffer: AudioBuffer\tOfflineAudioCompletionEvent",
-			"renderedBuffer"
-		]
-	]
-}
+{"scope":"source.js","completions":[["renderedBuffer\t: AudioBuffer OfflineAudioCompletionEvent","renderedBuffer"]]}

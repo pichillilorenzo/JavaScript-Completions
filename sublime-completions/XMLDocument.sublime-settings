@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"load( url: DOMString ): boolean\tXMLDocument",
-			"load(${1:url: DOMString})"
-		]
-	]
-}
+{"scope":"source.js","completions":[["load\t( url: DOMString ): boolean XMLDocument","load(${1:url: DOMString})"]]}

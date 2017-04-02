@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"value: DOMString\tDOMSettableTokenList",
-			"value"
-		]
-	]
-}
+{"scope":"source.js","completions":[["value\t: DOMString DOMSettableTokenList","value"]]}

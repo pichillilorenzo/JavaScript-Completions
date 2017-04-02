@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"item( index: unsigned long ): SVGElementInstance\tSVGElementInstanceList",
-			"item(${1:index: unsigned long})"
-		],
-		[
-			"length: unsigned long\tSVGElementInstanceList",
-			"length"
-		]
-	]
-}
+{"scope":"source.js","completions":[["item\t( index: unsigned long ): SVGElementInstance SVGElementInstanceList","item(${1:index: unsigned long})"],["length\t: unsigned long SVGElementInstanceList","length"]]}

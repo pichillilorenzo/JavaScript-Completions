@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"removeEventListener( type: DOMString, callback: EventListener, capture?: boolean ): void\tEventTarget",
-			"removeEventListener(${1:type: DOMString}, ${2:callback: EventListener}, ${3:capture?: boolean})"
-		],
-		[
-			"addEventListener( type: DOMString, callback: EventListener, capture?: boolean ): void\tEventTarget",
-			"addEventListener(${1:type: DOMString}, ${2:callback: EventListener}, ${3:capture?: boolean})"
-		],
-		[
-			"dispatchEvent( event: Event ): boolean\tEventTarget",
-			"dispatchEvent(${1:event: Event})"
-		]
-	]
-}
+{"scope":"source.js","completions":[["removeEventListener\t( type: DOMString, callback: EventListener, capture?: boolean ): void EventTarget","removeEventListener(${1:type: DOMString}, ${2:callback: EventListener}, ${3:capture?: boolean})"],["addEventListener\t( type: DOMString, callback: EventListener, capture?: boolean ): void EventTarget","addEventListener(${1:type: DOMString}, ${2:callback: EventListener}, ${3:capture?: boolean})"],["dispatchEvent\t( event: Event ): boolean EventTarget","dispatchEvent(${1:event: Event})"]]}

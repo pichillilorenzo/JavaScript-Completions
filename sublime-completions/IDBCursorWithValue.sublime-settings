@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"value: any\tIDBCursorWithValue",
-			"value"
-		]
-	]
-}
+{"scope":"source.js","completions":[["value\t: any IDBCursorWithValue","value"]]}

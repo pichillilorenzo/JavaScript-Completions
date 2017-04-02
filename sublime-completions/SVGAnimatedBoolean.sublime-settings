@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"animVal: boolean\tSVGAnimatedBoolean",
-			"animVal"
-		],
-		[
-			"baseVal: boolean\tSVGAnimatedBoolean",
-			"baseVal"
-		]
-	]
-}
+{"scope":"source.js","completions":[["animVal\t: boolean SVGAnimatedBoolean","animVal"],["baseVal\t: boolean SVGAnimatedBoolean","baseVal"]]}

@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"form: HTMLFormElement\tHTMLLabelElement",
-			"form"
-		],
-		[
-			"control: HTMLElement\tHTMLLabelElement",
-			"control"
-		],
-		[
-			"htmlFor: DOMString\tHTMLLabelElement",
-			"htmlFor"
-		]
-	]
-}
+{"scope":"source.js","completions":[["form\t: HTMLFormElement HTMLLabelElement","form"],["control\t: HTMLElement HTMLLabelElement","control"],["htmlFor\t: DOMString HTMLLabelElement","htmlFor"]]}

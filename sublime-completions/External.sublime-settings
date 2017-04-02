@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"IsSearchProviderInstalled( engineURL: DOMString ): unsigned long\tExternal",
-			"IsSearchProviderInstalled(${1:engineURL: DOMString})"
-		],
-		[
-			"AddSearchProvider( engineURL: DOMString ): void\tExternal",
-			"AddSearchProvider(${1:engineURL: DOMString})"
-		]
-	]
-}
+{"scope":"source.js","completions":[["IsSearchProviderInstalled\t( engineURL: DOMString ): unsigned long External","IsSearchProviderInstalled(${1:engineURL: DOMString})"],["AddSearchProvider\t( engineURL: DOMString ): void External","AddSearchProvider(${1:engineURL: DOMString})"]]}

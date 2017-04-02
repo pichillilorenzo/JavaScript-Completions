@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"dateTime: DOMString\tHTMLTimeElement",
-			"dateTime"
-		]
-	]
-}
+{"scope":"source.js","completions":[["dateTime\t: DOMString HTMLTimeElement","dateTime"]]}

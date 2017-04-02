@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"maxChannelCount: unsigned long\tAudioDestinationNode",
-			"maxChannelCount"
-		]
-	]
-}
+{"scope":"source.js","completions":[["maxChannelCount\t: unsigned long AudioDestinationNode","maxChannelCount"]]}

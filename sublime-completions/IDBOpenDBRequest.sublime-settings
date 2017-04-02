@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"onupgradeneeded: EventHandler\tIDBOpenDBRequest",
-			"onupgradeneeded"
-		],
-		[
-			"onblocked: EventHandler\tIDBOpenDBRequest",
-			"onblocked"
-		]
-	]
-}
+{"scope":"source.js","completions":[["onupgradeneeded\t: EventHandler IDBOpenDBRequest","onupgradeneeded"],["onblocked\t: EventHandler IDBOpenDBRequest","onblocked"]]}

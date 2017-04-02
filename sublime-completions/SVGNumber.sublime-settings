@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"value: float\tSVGNumber",
-			"value"
-		]
-	]
-}
+{"scope":"source.js","completions":[["value\t: float SVGNumber","value"]]}

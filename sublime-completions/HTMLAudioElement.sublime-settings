@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"new HTMLAudioElement( src?: DOMString ): HTMLAudioElement\tHTMLAudioElement",
-			"new HTMLAudioElement(${1:src?: DOMString})"
-		],
-		[
-			"HTMLAudioElement( src?: DOMString ): HTMLAudioElement\tHTMLAudioElement",
-			"HTMLAudioElement(${1:src?: DOMString})"
-		]
-	]
-}
+{"scope":"source.js","completions":[["HTMLAudioElement\t( src?: DOMString ): HTMLAudioElement HTMLAudioElement","new HTMLAudioElement(${1:src?: DOMString})"],["HTMLAudioElement\t( src?: DOMString ): HTMLAudioElement HTMLAudioElement","HTMLAudioElement(${1:src?: DOMString})"]]}

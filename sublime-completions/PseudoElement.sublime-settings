@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"rawComputedStyle: CSSStyleDeclaration\tPseudoElement",
-			"rawComputedStyle"
-		],
-		[
-			"cascadedStyle: CSSStyleDeclaration\tPseudoElement",
-			"cascadedStyle"
-		],
-		[
-			"usedStyle: CSSStyleDeclaration\tPseudoElement",
-			"usedStyle"
-		]
-	]
-}
+{"scope":"source.js","completions":[["rawComputedStyle\t: CSSStyleDeclaration PseudoElement","rawComputedStyle"],["cascadedStyle\t: CSSStyleDeclaration PseudoElement","cascadedStyle"],["usedStyle\t: CSSStyleDeclaration PseudoElement","usedStyle"]]}

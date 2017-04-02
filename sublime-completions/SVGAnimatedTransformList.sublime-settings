@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"animVal: SVGTransformList\tSVGAnimatedTransformList",
-			"animVal"
-		],
-		[
-			"baseVal: SVGTransformList\tSVGAnimatedTransformList",
-			"baseVal"
-		]
-	]
-}
+{"scope":"source.js","completions":[["animVal\t: SVGTransformList SVGAnimatedTransformList","animVal"],["baseVal\t: SVGTransformList SVGAnimatedTransformList","baseVal"]]}

@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"new TrackEvent( type: DOMString, eventInitDict?: TrackEventInit ): TrackEvent\tTrackEvent",
-			"new TrackEvent(${1:type: DOMString}, ${2:eventInitDict?: TrackEventInit})"
-		],
-		[
-			"TrackEvent( type: DOMString, eventInitDict?: TrackEventInit ): TrackEvent\tTrackEvent",
-			"TrackEvent(${1:type: DOMString}, ${2:eventInitDict?: TrackEventInit})"
-		],
-		[
-			"track: (VideoTrack or AudioTrack or TextTrack)\tTrackEvent",
-			"track"
-		]
-	]
-}
+{"scope":"source.js","completions":[["TrackEvent\t( type: DOMString, eventInitDict?: TrackEventInit ): TrackEvent TrackEvent","new TrackEvent(${1:type: DOMString}, ${2:eventInitDict?: TrackEventInit})"],["TrackEvent\t( type: DOMString, eventInitDict?: TrackEventInit ): TrackEvent TrackEvent","TrackEvent(${1:type: DOMString}, ${2:eventInitDict?: TrackEventInit})"],["track\t: (VideoTrack or AudioTrack or TextTrack) TrackEvent","track"]]}

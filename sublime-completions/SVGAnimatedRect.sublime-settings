@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"animVal: SVGRect\tSVGAnimatedRect",
-			"animVal"
-		],
-		[
-			"baseVal: SVGRect\tSVGAnimatedRect",
-			"baseVal"
-		]
-	]
-}
+{"scope":"source.js","completions":[["animVal\t: SVGRect SVGAnimatedRect","animVal"],["baseVal\t: SVGRect SVGAnimatedRect","baseVal"]]}

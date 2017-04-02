@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"preserveAspectRatio: SVGAnimatedPreserveAspectRatio\tSVGFitToViewBox",
-			"preserveAspectRatio"
-		],
-		[
-			"viewBox: SVGAnimatedRect\tSVGFitToViewBox",
-			"viewBox"
-		]
-	]
-}
+{"scope":"source.js","completions":[["preserveAspectRatio\t: SVGAnimatedPreserveAspectRatio SVGFitToViewBox","preserveAspectRatio"],["viewBox\t: SVGAnimatedRect SVGFitToViewBox","viewBox"]]}

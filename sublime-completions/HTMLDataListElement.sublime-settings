@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"options: HTMLCollection\tHTMLDataListElement",
-			"options"
-		]
-	]
-}
+{"scope":"source.js","completions":[["options\t: HTMLCollection HTMLDataListElement","options"]]}

@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"target: DOMString\tHTMLBaseElement",
-			"target"
-		],
-		[
-			"href: DOMString\tHTMLBaseElement",
-			"href"
-		]
-	]
-}
+{"scope":"source.js","completions":[["target\t: DOMString HTMLBaseElement","target"],["href\t: DOMString HTMLBaseElement","href"]]}

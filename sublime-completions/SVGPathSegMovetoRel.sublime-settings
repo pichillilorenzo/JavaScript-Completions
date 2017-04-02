@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"x: float\tSVGPathSegMovetoRel",
-			"x"
-		],
-		[
-			"y: float\tSVGPathSegMovetoRel",
-			"y"
-		]
-	]
-}
+{"scope":"source.js","completions":[["x\t: float SVGPathSegMovetoRel","x"],["y\t: float SVGPathSegMovetoRel","y"]]}

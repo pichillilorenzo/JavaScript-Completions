@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"start( index: unsigned long ): double\tTimeRanges",
-			"start(${1:index: unsigned long})"
-		],
-		[
-			"end( index: unsigned long ): double\tTimeRanges",
-			"end(${1:index: unsigned long})"
-		],
-		[
-			"length: unsigned long\tTimeRanges",
-			"length"
-		]
-	]
-}
+{"scope":"source.js","completions":[["start\t( index: unsigned long ): double TimeRanges","start(${1:index: unsigned long})"],["end\t( index: unsigned long ): double TimeRanges","end(${1:index: unsigned long})"],["length\t: unsigned long TimeRanges","length"]]}

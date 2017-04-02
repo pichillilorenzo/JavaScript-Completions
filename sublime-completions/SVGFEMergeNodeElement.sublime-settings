@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"in1: SVGAnimatedString\tSVGFEMergeNodeElement",
-			"in1"
-		]
-	]
-}
+{"scope":"source.js","completions":[["in1\t: SVGAnimatedString SVGFEMergeNodeElement","in1"]]}

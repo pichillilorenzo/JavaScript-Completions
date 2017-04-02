@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"xmlspace: DOMString\tSVGLangSpace",
-			"xmlspace"
-		],
-		[
-			"xmllang: DOMString\tSVGLangSpace",
-			"xmllang"
-		]
-	]
-}
+{"scope":"source.js","completions":[["xmlspace\t: DOMString SVGLangSpace","xmlspace"],["xmllang\t: DOMString SVGLangSpace","xmllang"]]}

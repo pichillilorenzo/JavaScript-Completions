@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"animatedPoints: SVGPointList\tSVGAnimatedPoints",
-			"animatedPoints"
-		],
-		[
-			"points: SVGPointList\tSVGAnimatedPoints",
-			"points"
-		]
-	]
-}
+{"scope":"source.js","completions":[["animatedPoints\t: SVGPointList SVGAnimatedPoints","animatedPoints"],["points\t: SVGPointList SVGAnimatedPoints","points"]]}

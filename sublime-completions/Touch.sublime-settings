@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"region: DOMString\tTouch",
-			"region"
-		]
-	]
-}
+{"scope":"source.js","completions":[["region\t: DOMString Touch","region"]]}

@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"visible: boolean\tBarProp",
-			"visible"
-		]
-	]
-}
+{"scope":"source.js","completions":[["visible\t: boolean BarProp","visible"]]}

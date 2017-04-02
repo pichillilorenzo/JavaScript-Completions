@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"open: boolean\tHTMLDetailsElement",
-			"open"
-		]
-	]
-}
+{"scope":"source.js","completions":[["open\t: boolean HTMLDetailsElement","open"]]}

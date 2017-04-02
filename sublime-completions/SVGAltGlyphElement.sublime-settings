@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"href: SVGAnimatedString\tSVGAltGlyphElement",
-			"href"
-		],
-		[
-			"glyphRef: DOMString\tSVGAltGlyphElement",
-			"glyphRef"
-		],
-		[
-			"format: DOMString\tSVGAltGlyphElement",
-			"format"
-		]
-	]
-}
+{"scope":"source.js","completions":[["href\t: SVGAnimatedString SVGAltGlyphElement","href"],["glyphRef\t: DOMString SVGAltGlyphElement","glyphRef"],["format\t: DOMString SVGAltGlyphElement","format"]]}

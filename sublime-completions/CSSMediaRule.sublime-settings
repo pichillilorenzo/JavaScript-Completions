@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"media: MediaList\tCSSMediaRule",
-			"media"
-		]
-	]
-}
+{"scope":"source.js","completions":[["media\t: MediaList CSSMediaRule","media"]]}

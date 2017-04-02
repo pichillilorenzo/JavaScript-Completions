@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"item( index: unsigned long ): StyleSheet\tStyleSheetList",
-			"item(${1:index: unsigned long})"
-		],
-		[
-			"length: unsigned long\tStyleSheetList",
-			"length"
-		]
-	]
-}
+{"scope":"source.js","completions":[["item\t( index: unsigned long ): StyleSheet StyleSheetList","item(${1:index: unsigned long})"],["length\t: unsigned long StyleSheetList","length"]]}

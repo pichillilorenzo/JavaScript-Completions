@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"dateTime: DOMString\tHTMLModElement",
-			"dateTime"
-		],
-		[
-			"cite: DOMString\tHTMLModElement",
-			"cite"
-		]
-	]
-}
+{"scope":"source.js","completions":[["dateTime\t: DOMString HTMLModElement","dateTime"],["cite\t: DOMString HTMLModElement","cite"]]}

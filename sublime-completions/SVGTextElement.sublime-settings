@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"transform: SVGAnimatedTransformList\tSVGTextElement",
-			"transform"
-		]
-	]
-}
+{"scope":"source.js","completions":[["transform\t: SVGAnimatedTransformList SVGTextElement","transform"]]}

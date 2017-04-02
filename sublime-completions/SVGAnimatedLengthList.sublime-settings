@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"animVal: SVGLengthList\tSVGAnimatedLengthList",
-			"animVal"
-		],
-		[
-			"baseVal: SVGLengthList\tSVGAnimatedLengthList",
-			"baseVal"
-		]
-	]
-}
+{"scope":"source.js","completions":[["animVal\t: SVGLengthList SVGAnimatedLengthList","animVal"],["baseVal\t: SVGLengthList SVGAnimatedLengthList","baseVal"]]}

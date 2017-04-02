@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"style: CSSStyleDeclaration\tCSSMarginRule",
-			"style"
-		],
-		[
-			"name: DOMString\tCSSMarginRule",
-			"name"
-		]
-	]
-}
+{"scope":"source.js","completions":[["style\t: CSSStyleDeclaration CSSMarginRule","style"],["name\t: DOMString CSSMarginRule","name"]]}

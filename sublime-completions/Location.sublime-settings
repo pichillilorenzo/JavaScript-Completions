@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"replace( url: DOMString ): void\tLocation",
-			"replace(${1:url: DOMString})"
-		],
-		[
-			"assign( url: DOMString ): void\tLocation",
-			"assign(${1:url: DOMString})"
-		],
-		[
-			"reload(): void\tLocation",
-			"reload()"
-		]
-	]
-}
+{"scope":"source.js","completions":[["replace\t( url: DOMString ): void Location","replace(${1:url: DOMString})"],["assign\t( url: DOMString ): void Location","assign(${1:url: DOMString})"],["reload\t(): void Location","reload()"]]}

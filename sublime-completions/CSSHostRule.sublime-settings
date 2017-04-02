@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"insertRule( rule: DOMString, index: unsigned long ): unsigned long\tCSSHostRule",
-			"insertRule(${1:rule: DOMString}, ${2:index: unsigned long})"
-		],
-		[
-			"deleteRule( index: unsigned long ): void\tCSSHostRule",
-			"deleteRule(${1:index: unsigned long})"
-		],
-		[
-			"cssRules: CSSRuleList\tCSSHostRule",
-			"cssRules"
-		]
-	]
-}
+{"scope":"source.js","completions":[["insertRule\t( rule: DOMString, index: unsigned long ): unsigned long CSSHostRule","insertRule(${1:rule: DOMString}, ${2:index: unsigned long})"],["deleteRule\t( index: unsigned long ): void CSSHostRule","deleteRule(${1:index: unsigned long})"],["cssRules\t: CSSRuleList CSSHostRule","cssRules"]]}

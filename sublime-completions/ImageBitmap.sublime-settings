@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"height: unsigned long\tImageBitmap",
-			"height"
-		],
-		[
-			"width: unsigned long\tImageBitmap",
-			"width"
-		]
-	]
-}
+{"scope":"source.js","completions":[["height\t: unsigned long ImageBitmap","height"],["width\t: unsigned long ImageBitmap","width"]]}

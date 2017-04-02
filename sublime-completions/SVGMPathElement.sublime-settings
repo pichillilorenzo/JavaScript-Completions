@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"externalResourcesRequired: SVGAnimatedBoolean\tSVGMPathElement",
-			"externalResourcesRequired"
-		],
-		[
-			"href: SVGAnimatedString\tSVGMPathElement",
-			"href"
-		]
-	]
-}
+{"scope":"source.js","completions":[["externalResourcesRequired\t: SVGAnimatedBoolean SVGMPathElement","externalResourcesRequired"],["href\t: SVGAnimatedString SVGMPathElement","href"]]}

@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"type: DOMString\tHTMLSourceElement",
-			"type"
-		],
-		[
-			"src: DOMString\tHTMLSourceElement",
-			"src"
-		]
-	]
-}
+{"scope":"source.js","completions":[["type\t: DOMString HTMLSourceElement","type"],["src\t: DOMString HTMLSourceElement","src"]]}

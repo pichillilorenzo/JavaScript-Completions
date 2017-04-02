@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"externalResourcesRequired: SVGAnimatedBoolean\tSVGExternalResourcesRequired",
-			"externalResourcesRequired"
-		]
-	]
-}
+{"scope":"source.js","completions":[["externalResourcesRequired\t: SVGAnimatedBoolean SVGExternalResourcesRequired","externalResourcesRequired"]]}

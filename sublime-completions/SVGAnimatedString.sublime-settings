@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"animVal: DOMString\tSVGAnimatedString",
-			"animVal"
-		],
-		[
-			"baseVal: DOMString\tSVGAnimatedString",
-			"baseVal"
-		]
-	]
-}
+{"scope":"source.js","completions":[["animVal\t: DOMString SVGAnimatedString","animVal"],["baseVal\t: DOMString SVGAnimatedString","baseVal"]]}

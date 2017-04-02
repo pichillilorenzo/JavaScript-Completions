@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"new Comment( data?: DOMString ): Comment\tComment",
-			"new Comment(${1:data?: DOMString})"
-		],
-		[
-			"Comment( data?: DOMString ): Comment\tComment",
-			"Comment(${1:data?: DOMString})"
-		]
-	]
-}
+{"scope":"source.js","completions":[["Comment\t( data?: DOMString ): Comment Comment","new Comment(${1:data?: DOMString})"],["Comment\t( data?: DOMString ): Comment Comment","Comment(${1:data?: DOMString})"]]}

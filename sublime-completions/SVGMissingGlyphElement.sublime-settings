@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"getPresentationAttribute( name: DOMString ): CSSValue\tSVGMissingGlyphElement",
-			"getPresentationAttribute(${1:name: DOMString})"
-		],
-		[
-			"className: SVGAnimatedString\tSVGMissingGlyphElement",
-			"className"
-		],
-		[
-			"style: CSSStyleDeclaration\tSVGMissingGlyphElement",
-			"style"
-		]
-	]
-}
+{"scope":"source.js","completions":[["getPresentationAttribute\t( name: DOMString ): CSSValue SVGMissingGlyphElement","getPresentationAttribute(${1:name: DOMString})"],["className\t: SVGAnimatedString SVGMissingGlyphElement","className"],["style\t: CSSStyleDeclaration SVGMissingGlyphElement","style"]]}

@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"cite: DOMString\tHTMLQuoteElement",
-			"cite"
-		]
-	]
-}
+{"scope":"source.js","completions":[["cite\t: DOMString HTMLQuoteElement","cite"]]}

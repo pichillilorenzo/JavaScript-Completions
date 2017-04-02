@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"item( index: unsigned long ): Element\tHTMLCollection",
-			"item(${1:index: unsigned long})"
-		],
-		[
-			"namedItem( name: DOMString ): Element\tHTMLCollection",
-			"namedItem(${1:name: DOMString})"
-		],
-		[
-			"length: unsigned long\tHTMLCollection",
-			"length"
-		]
-	]
-}
+{"scope":"source.js","completions":[["item\t( index: unsigned long ): Element HTMLCollection","item(${1:index: unsigned long})"],["namedItem\t( name: DOMString ): Element HTMLCollection","namedItem(${1:name: DOMString})"],["length\t: unsigned long HTMLCollection","length"]]}

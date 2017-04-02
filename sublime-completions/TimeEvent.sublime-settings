@@ -1,17 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"initTimeEvent( typeArg: DOMString, viewArg: AbstractView, detailArg: long ): void\tTimeEvent",
-			"initTimeEvent(${1:typeArg: DOMString}, ${2:viewArg: AbstractView}, ${3:detailArg: long})"
-		],
-		[
-			"view: AbstractView\tTimeEvent",
-			"view"
-		],
-		[
-			"detail: long\tTimeEvent",
-			"detail"
-		]
-	]
-}
+{"scope":"source.js","completions":[["initTimeEvent\t( typeArg: DOMString, viewArg: AbstractView, detailArg: long ): void TimeEvent","initTimeEvent(${1:typeArg: DOMString}, ${2:viewArg: AbstractView}, ${3:detailArg: long})"],["view\t: AbstractView TimeEvent","view"],["detail\t: long TimeEvent","detail"]]}

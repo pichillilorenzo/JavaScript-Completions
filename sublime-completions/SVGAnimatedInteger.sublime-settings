@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"animVal: long\tSVGAnimatedInteger",
-			"animVal"
-		],
-		[
-			"baseVal: long\tSVGAnimatedInteger",
-			"baseVal"
-		]
-	]
-}
+{"scope":"source.js","completions":[["animVal\t: long SVGAnimatedInteger","animVal"],["baseVal\t: long SVGAnimatedInteger","baseVal"]]}

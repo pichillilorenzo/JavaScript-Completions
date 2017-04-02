@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"onaudioprocess: EventHandler\tScriptProcessorNode",
-			"onaudioprocess"
-		],
-		[
-			"bufferSize: long\tScriptProcessorNode",
-			"bufferSize"
-		]
-	]
-}
+{"scope":"source.js","completions":[["onaudioprocess\t: EventHandler ScriptProcessorNode","onaudioprocess"],["bufferSize\t: long ScriptProcessorNode","bufferSize"]]}

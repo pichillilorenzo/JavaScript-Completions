@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"returnValue: DOMString\tBeforeUnloadEvent",
-			"returnValue"
-		]
-	]
-}
+{"scope":"source.js","completions":[["returnValue\t: DOMString BeforeUnloadEvent","returnValue"]]}

@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"buffer: AudioBuffer\tConvolverNode",
-			"buffer"
-		],
-		[
-			"normalize: boolean\tConvolverNode",
-			"normalize"
-		]
-	]
-}
+{"scope":"source.js","completions":[["buffer\t: AudioBuffer ConvolverNode","buffer"],["normalize\t: boolean ConvolverNode","normalize"]]}

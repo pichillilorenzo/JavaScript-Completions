@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"getSVGDocument(): SVGDocument\tGetSVGDocument",
-			"getSVGDocument()"
-		]
-	]
-}
+{"scope":"source.js","completions":[["getSVGDocument\t(): SVGDocument GetSVGDocument","getSVGDocument()"]]}

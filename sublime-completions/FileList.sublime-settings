@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"item( index: unsigned long ): File\tFileList",
-			"item(${1:index: unsigned long})"
-		],
-		[
-			"length: unsigned long\tFileList",
-			"length"
-		]
-	]
-}
+{"scope":"source.js","completions":[["item\t( index: unsigned long ): File FileList","item(${1:index: unsigned long})"],["length\t: unsigned long FileList","length"]]}

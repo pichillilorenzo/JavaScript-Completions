@@ -1,9 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"form: HTMLFormElement\tHTMLLegendElement",
-			"form"
-		]
-	]
-}
+{"scope":"source.js","completions":[["form\t: HTMLFormElement HTMLLegendElement","form"]]}

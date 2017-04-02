@@ -1,13 +1,1 @@
-{
-	"scope": "source.js",
-	"completions": [
-		[
-			"x: float\tSVGPathSegCurvetoQuadraticSmoothRel",
-			"x"
-		],
-		[
-			"y: float\tSVGPathSegCurvetoQuadraticSmoothRel",
-			"y"
-		]
-	]
-}
+{"scope":"source.js","completions":[["x\t: float SVGPathSegCurvetoQuadraticSmoothRel","x"],["y\t: float SVGPathSegCurvetoQuadraticSmoothRel","y"]]}
