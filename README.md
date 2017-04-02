@@ -8,6 +8,23 @@ JavaScript Completions for sublime text
 
 It helps you to write your scripts more quickly with hints and completions.
 
+<h2>Announcement</h2>
+<p>
+I'm implementing new features thanks to <strong>Flow</strong> (static type checker from Facebook).
+With it I can implement other <strong>features</strong> and there will be a better <strong>autocomplete</strong>
+(<strong style="text-decoration: underline;">smart autocomplete based on the current context</strong>).
+
+This is in <strong>Beta version</strong> and I published it under another branch:
+<a href="https://github.com/pichillilorenzo/JavaScript-Completions/tree/v3-beta">https://github.com/pichillilorenzo/JavaScript-Completions/tree/v3-beta</a>
+
+But it isn’t ready for public testing and there isn’t a documentation at the moment!
+I will let you know the moment I have any news!!
+
+<strong>Thanks for your support!!!</strong>
+</p>
+
+<hr>
+
 <strong>jQuery</strong> and <strong>NativeScript</strong> completions disabled by default!
 You can enable them on Preferences -> Package Settings -> JavaScript Completions.
 
