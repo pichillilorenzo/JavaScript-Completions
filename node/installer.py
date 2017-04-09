@@ -33,12 +33,12 @@ class DownloadNodeJS(object):
   def download(self):
     try :
       if os.path.exists(node_variables.NODE_JS_BINARIES_FOLDER_PLATFORM):
-        shutil.rmtree(node_variables.NODE_JS_BINARIES_FOLDER_PLATFORM)
+        self.rmtree(node_variables.NODE_JS_BINARIES_FOLDER_PLATFORM)
         os.makedirs(node_variables.NODE_JS_BINARIES_FOLDER_PLATFORM)
       else :
         os.makedirs(node_variables.NODE_JS_BINARIES_FOLDER_PLATFORM)
       if os.path.exists(node_variables.NODE_MODULES_PATH):
-        shutil.rmtree(node_variables.NODE_MODULES_PATH)
+        self.rmtree(node_variables.NODE_MODULES_PATH)
       request = urllib.request.Request(self.NODE_JS_BINARY_URL)
       request.add_header('User-agent', r'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1')
       with urllib.request.urlopen(request) as response :
@@ -62,13 +62,58 @@ class DownloadNodeJS(object):
           member.name = sep.join(member.name.split(sep)[1:])
           tar.extract(member, node_variables.NODE_JS_BINARIES_FOLDER_PLATFORM)
     else :
-      with zipfile.ZipFile(self.NODE_JS_BINARY_TARFILE_FULL_PATH, "r") as zip_file :
-        for member in zip_file.namelist() :
-          if member.endswith("/node.exe") :
-            with zip_file.open(member) as node_file:
-              with open(os.path.join(node_variables.NODE_JS_BINARIES_FOLDER_PLATFORM, "node.exe"), "wb") as target :
-                shutil.copyfileobj(node_file, target)
-                break
+      if node_variables.NODE_JS_OS == "win" :
+        import string
+        from ctypes import windll, c_int, c_wchar_p
+        UNUSUED_DRIVE_LETTER = ""
+        for letter in string.ascii_uppercase:
+          if not os.path.exists(letter+":") :
+            UNUSUED_DRIVE_LETTER = letter+":"
+            break
+        if not UNUSUED_DRIVE_LETTER :
+          sublime.message_dialog("Can't install node.js and npm! UNUSUED_DRIVE_LETTER not found.")
+          return
+        DefineDosDevice = windll.kernel32.DefineDosDeviceW
+        DefineDosDevice.argtypes = [ c_int, c_wchar_p, c_wchar_p ]
+        DefineDosDevice(0, UNUSUED_DRIVE_LETTER, node_variables.NODE_JS_BINARIES_FOLDER_PLATFORM)
+        try:
+          with zipfile.ZipFile(self.NODE_JS_BINARY_TARFILE_FULL_PATH, "r") as zip_file :
+            for member in zip_file.namelist() :
+              if not member.endswith("/") :
+                with zip_file.open(member) as node_file:
+                  with open(UNUSUED_DRIVE_LETTER + "\\"+ member.replace("node-"+self.NODE_JS_VERSION+"-"+node_variables.NODE_JS_OS+"-"+node_variables.NODE_JS_ARCHITECTURE+"/", ""), "wb+") as target :
+                    shutil.copyfileobj(node_file, target)
+              elif not member.endswith("node-"+self.NODE_JS_VERSION+"-"+node_variables.NODE_JS_OS+"-"+node_variables.NODE_JS_ARCHITECTURE+"/"):
+                os.mkdir(UNUSUED_DRIVE_LETTER + "\\"+ member.replace("node-"+self.NODE_JS_VERSION+"-"+node_variables.NODE_JS_OS+"-"+node_variables.NODE_JS_ARCHITECTURE+"/", ""))
+        except Exception as e:
+          print("Error: "+traceback.format_exc())
+        finally:
+          DefineDosDevice(2, UNUSUED_DRIVE_LETTER, node_variables.NODE_JS_BINARIES_FOLDER_PLATFORM)
+  
+  def rmtree(self, path) :
+    if node_variables.NODE_JS_OS == "win" :
+      import string
+      from ctypes import windll, c_int, c_wchar_p
+      UNUSUED_DRIVE_LETTER = ""
+      for letter in string.ascii_uppercase:
+        if not os.path.exists(letter+":") :
+          UNUSUED_DRIVE_LETTER = letter+":"
+          break
+      if not UNUSUED_DRIVE_LETTER :
+        sublime.message_dialog("Can't remove node.js! UNUSUED_DRIVE_LETTER not found.")
+        return
+      DefineDosDevice = windll.kernel32.DefineDosDeviceW
+      DefineDosDevice.argtypes = [ c_int, c_wchar_p, c_wchar_p ]
+      DefineDosDevice(0, UNUSUED_DRIVE_LETTER, path)
+      try:
+        shutil.rmtree(UNUSUED_DRIVE_LETTER)
+      except Exception as e:
+        print("Error: "+traceback.format_exc())
+      finally:
+        DefineDosDevice(2, UNUSUED_DRIVE_LETTER, path)  
+    else :
+      shutil.rmtree(path)      
+        
 
   def on_error(self, err):
     self.animation_loader.on_complete()
@@ -86,8 +131,6 @@ class DownloadNodeJS(object):
     try :
       npm.getCurrentNPMVersion(True) 
     except Exception as e:
-      if node_variables.NODE_JS_OS == "win" :
-        sublime.error_message("Can't use \"npm\"! To use features that requires \"npm\", you must install it! Download it from https://nodejs.org site")
       print("Error: "+traceback.format_exc())
     try :
       npm.install_all() 
@@ -128,8 +171,6 @@ def updateNPMDependencies():
   try :
     npm.getCurrentNPMVersion(True)
   except Exception as e:
-    if node_variables.NODE_JS_OS == "win" :
-      sublime.active_window().status_message("Can't use \"npm\"! To use features that requires \"npm\", you must install it! Download it from https://nodejs.org site")
     print("Error: "+traceback.format_exc())
     return
     
@@ -158,10 +199,12 @@ def install(node_version=""):
   nodejs_already_installed = already_installed()
   if nodejs_can_start_download and not nodejs_already_installed :
     DownloadNodeJS( node_version ).start()
+    return
   elif nodejs_can_start_download and nodejs_already_installed :
     node_js = NodeJS()
     if node_version != node_js.getCurrentNodeJSVersion(True) :
       DownloadNodeJS( node_version ).start()
+      return
 
   if nodejs_already_installed :
-    create_and_start_thread(updateNPMDependencies, "checkUpgradeNPM")
+    create_and_start_thread(updateNPMDependencies, "updateNPMDependencies")
