@@ -46,9 +46,7 @@ You can enable them on Preferences -> Package Settings -> JavaScript Completions
 
 <strong>Some features could use npm!</strong>
 
-In Windows you must install it! Download it from [https://nodejs.org](https://nodejs.org).
-
-To OSX and Linux, it will be downloaded automatically with nodejs.
+It will be downloaded automatically with nodejs!
 
 Features list:
 - <a href="#find-javascript-description">"Find JavaScript Description" Feature</a>
