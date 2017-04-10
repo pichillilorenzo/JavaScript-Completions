@@ -1,0 +1,33 @@
+v2.6.94
+
+# Announcement
+
+I'm developing a new plugin with new features thanks to Flow (javascript static type checker from Facebook).
+With it I can implement other features and there will be a better autocomplete
+(smart autocomplete based on the current context).
+
+This is in Beta version and I published it on another github repository:
+
+https://github.com/pichillilorenzo/JavaScriptEnhancements
+
+
+This new plugin will offer not only a better autocomplete but a lot of features about creating, 
+developing and managing javascript projects, such as:
+
+- Cordova projects (run Cordova emulator, build, compile, serve Cordova projects, add plugins and available platforms, the ability to install local version of Cordova in the project, etc … directly on Sublime Text!)
+- Ionic projects (same as Cordova projects!)
+- Angular projects
+- Node.js projects
+- Local bookmarks project
+- Show javascript errors with Flow
+- etc, etc …
+
+It will turn Sublime Text into a JavaScript IDE like!
+
+It isn’t ready for public testing and there isn’t a documentation at the moment!
+
+WATCH the repository to stay tuned for any news!
+
+Email me for any questions or doubts about this new project on: pichillilorenzo@gmail.com
+
+Thanks to all your support!!!

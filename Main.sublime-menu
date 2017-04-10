@@ -47,6 +47,11 @@
             "caption": "GitHub Project",
             "command": "open_url",
             "args": {"url": "https://github.com/pichillilorenzo/JavaScript-Completions"}
+          },
+          {
+            "caption": "JavaScript Enhancements GitHub Project",
+            "command": "open_url",
+            "args": {"url": "https://github.com/pichillilorenzo/JavaScriptEnhancements"}
           }
         ]
       }
