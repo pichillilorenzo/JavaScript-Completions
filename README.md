@@ -11,32 +11,34 @@ It helps you to write your scripts more quickly with hints and completions.
 <h2>Announcement</h2>
 <p>
 
-I'm implementing new features thanks to <strong>Flow</strong> (static type checker from Facebook).
+I'm developing a new plugin with new features thanks to <strong><a href="https://github.com/facebook/flow">Flow</a></strong> (javascript static type checker from Facebook).
 With it I can implement other <strong>features</strong> and there will be a better <strong>autocomplete</strong>
 (<strong style="text-decoration: underline;">smart autocomplete based on the current context</strong>).
 
-This is in <strong>Beta version</strong> and I published it under another branch:
-<a href="https://github.com/pichillilorenzo/JavaScript-Completions/tree/v3-beta">https://github.com/pichillilorenzo/JavaScript-Completions/tree/v3-beta</a>
+This is in <strong>Beta version</strong> and I published it on another github repository:
 
-but I will move it on a new repository (<strong style="text-decoration: underline;">so it will be a new plugin on Sublime Text</strong>)
-because it will offer not only a better autocomplete but a lot of features about creating, 
+<a href="https://github.com/pichillilorenzo/JavaScriptEnhancements">https://github.com/pichillilorenzo/JavaScriptEnhancements</a>
+
+This new plugin will offer not only a better autocomplete but a lot of features about creating, 
 developing and managing javascript projects, such as:
 
-- Cordova projects (run Cordova emulator, build, compile, serve Cordova projects, add plugins and platforms, etc … directly on Sublime Text!)
+- Cordova projects (run Cordova emulator, build, compile, serve Cordova projects, add plugins and available platforms, the ability to install local version of Cordova in the project, etc … directly on Sublime Text!)
 - Ionic projects (same as Cordova projects!)
+- Angular projects
 - Node.js projects
 - Local bookmarks project
 - Show javascript errors with Flow
 - etc, etc …
 
-It will be something like a <strong>JavaScript IDE</strong> on Sublime Text!
+It will turn Sublime Text into a <strong>JavaScript IDE</strong> like!
 
 It isn’t ready for public testing and there isn’t a documentation at the moment!
-I will let you know the moment I have any news!!
+
+<strong>WATCH</strong> the repository to stay tuned for any news!
 
 Email me for any questions or doubts about this new project on: <a href="mailto:pichillilorenzo@gmail.com">pichillilorenzo@gmail.com</a>
 
-<strong>Thanks for your support!!!</strong>
+Thanks for your support!!!
 </p>
 
 <hr>
