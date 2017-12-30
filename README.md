@@ -8,7 +8,7 @@ JavaScript Completions for sublime text
 
 It helps you to write your scripts more quickly with hints and completions.
 
-<h2>Announcement</h2>
+<h2>ANNOUNCEMENT - NEW PLUGIN "JavaScript Enhancements" DEVELOPMENT</h2>
 <p>
 
 I'm developing a new plugin with new features thanks to <strong><a href="https://github.com/facebook/flow">Flow</a></strong> (javascript static type checker from Facebook).
