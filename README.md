@@ -12,29 +12,31 @@ It helps you to write your scripts more quickly with hints and completions.
 <p>
 
 I'm developing a new plugin with new features thanks to <strong><a href="https://github.com/facebook/flow">Flow</a></strong> (javascript static type checker from Facebook).
-With it I can implement other <strong>features</strong> and there will be a better <strong>autocomplete</strong>
-(<strong style="text-decoration: underline;">smart autocomplete based on the current context</strong>).
+<span style="text-decoration: underline;">After its first release, I will no longer support "JavaScript Completions" plugin. I will focus only on this new one</span>.
 
-This is in <strong>Beta version</strong> and I published it on another github repository:
+You can find it on:<a href="https://github.com/pichillilorenzo/JavaScriptEnhancements">https://github.com/pichillilorenzo/JavaScriptEnhancements</a>
 
-<a href="https://github.com/pichillilorenzo/JavaScriptEnhancements">https://github.com/pichillilorenzo/JavaScriptEnhancements</a>
+This new plugin will offer not only a <strong>better autocomplete</strong> but a lot of <strong>features</strong> about creating, 
+developing and managing <strong>javascript projects</strong>, such as:
 
-This new plugin will offer not only a better autocomplete but a lot of features about creating, 
-developing and managing javascript projects, such as:
-
-- Cordova projects (run Cordova emulator, build, compile, serve Cordova projects, add plugins and available platforms, the ability to install local version of Cordova in the project, etc … directly on Sublime Text!)
-- Ionic projects (same as Cordova projects!)
-- Angular projects
-- Node.js projects
+- Cordova projects (run cordova emulate, build, compile, serve, etc. directly from Sublime Text!)
+- Ionic v1 and v2 projects (same as Cordova projects!)
+- Angular v1 and v2 projects
+- React projects
+- Express projects
+- Yeoman generators
 - Local bookmarks project
-- Show javascript errors with Flow
-- etc, etc …
+- JavaScript real-time errors
+- etc.
 
 It will turn Sublime Text into a <strong>JavaScript IDE</strong> like!
 
-It isn’t ready for public testing and there isn’t a documentation at the moment!
+<span style="text-decoration: underline;">I'm going to release a first testable version these days, so <strong>WATCH</strong> the repository to stay tuned for any news!</span>
 
-<strong>WATCH</strong> the repository to stay tuned for any news!
+<h3>OS supported now by this new plugin<h3>
+
+- Linux (64-bit)
+- Mac OS X 
 
 Email me for any questions or doubts about this new project on: <a href="mailto:pichillilorenzo@gmail.com">pichillilorenzo@gmail.com</a>
 
