@@ -12,7 +12,7 @@ It helps you to write your scripts more quickly with hints and completions.
 <p>
 
 I'm developing a new plugin with new features thanks to <strong><a href="https://github.com/facebook/flow">Flow</a></strong> (javascript static type checker from Facebook).
-<span style="text-decoration: underline;">After its first release, I will no longer support "JavaScript Completions" plugin. I will focus only on this new one</span>.
+<strong>After its first release, I will no longer support "JavaScript Completions" plugin. I will focus only on this new one</strong>.
 
 You can find it on: <a href="https://github.com/pichillilorenzo/JavaScriptEnhancements">https://github.com/pichillilorenzo/JavaScriptEnhancements</a>
 
