@@ -33,7 +33,7 @@ It will turn Sublime Text into a <strong>JavaScript IDE</strong> like!
 
 <span style="text-decoration: underline;">I'm going to release a first testable version these days, so <strong>WATCH</strong> the repository to stay tuned for any news!</span>
 
-<h3>OS supported now by this new plugin<h3>
+<h3>OS supported now by this new plugin</h3>
 
 - Linux (64-bit)
 - Mac OS X 
