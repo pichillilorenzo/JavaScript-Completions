@@ -14,7 +14,7 @@ It helps you to write your scripts more quickly with hints and completions.
 I'm developing a new plugin with new features thanks to <strong><a href="https://github.com/facebook/flow">Flow</a></strong> (javascript static type checker from Facebook).
 <span style="text-decoration: underline;">After its first release, I will no longer support "JavaScript Completions" plugin. I will focus only on this new one</span>.
 
-You can find it on:<a href="https://github.com/pichillilorenzo/JavaScriptEnhancements">https://github.com/pichillilorenzo/JavaScriptEnhancements</a>
+You can find it on: <a href="https://github.com/pichillilorenzo/JavaScriptEnhancements">https://github.com/pichillilorenzo/JavaScriptEnhancements</a>
 
 This new plugin will offer not only a <strong>better autocomplete</strong> but a lot of <strong>features</strong> about creating, 
 developing and managing <strong>javascript projects</strong>, such as:
