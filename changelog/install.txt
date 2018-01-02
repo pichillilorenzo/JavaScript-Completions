@@ -2,17 +2,17 @@ JavaScript Completions Package
 ===============================
 
 
+🎉🎉 ANNOUNCEMENT - NEW PLUGIN "JavaScript Enhancements" RELEASED 🎉🎉
+=======================================================================
 
-## ANNOUNCEMENT - NEW PLUGIN "JavaScript Enhancements" DEVELOPMENT ##
-=====================================================================
+I developed a new plugin with new features thanks to Flow (javascript static type checker from Facebook).
 
-I'm developing a new plugin with new features thanks to Flow (javascript static type checker from Facebook).
+So, I will NO LONGER SUPPORT "JavaScript Completions" plugin, except in particular cases. 
+I'm going to focus only on this new one!
 
-After its first release, I will NO LONGER SUPPORT "JavaScript Completions" plugin. I will focus only on this new one.
+You can find it on: 👉👉 https://github.com/pichillilorenzo/JavaScriptEnhancements 👈👈
 
-You can find it on: https://github.com/pichillilorenzo/JavaScriptEnhancements
-
-This new plugin will offer not only a better autocomplete but a lot of features about creating, 
+This new plugin offers not only a better autocomplete but a lot of features about creating, 
 developing and managing javascript projects, such as:
 
 - Cordova projects (run cordova emulate, build, compile, serve, etc. directly from Sublime Text!)
@@ -25,11 +25,11 @@ developing and managing javascript projects, such as:
 - JavaScript real-time errors
 - etc.
 
+You could use it also in existing projects!! (see the Wiki - https://github.com/pichillilorenzo/JavaScriptEnhancements/wiki)
+
 It will turn Sublime Text into a JavaScript IDE like!
 
-I'm going to release a first testable version these days, so WATCH the repository to stay tuned for any news!
-
-## OS SUPPORTED now by this new plugin:
+## OS SUPPORTED NOW by this new plugin:
 =======================================
 
 - Linux (64-bit)
