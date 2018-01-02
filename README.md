@@ -1,22 +1,13 @@
-<h1>JavaScript Completions</h1>
+<h1>🎉🎉 ANNOUNCEMENT - NEW PLUGIN "JavaScript Enhancements" RELEASED 🎉🎉</h1>
 
-[![Sublime Text](https://img.shields.io/badge/Sublime%20Text-2%20%2F%203-brightgreen.svg)](https://www.sublimetext.com/)
-[![Package Control](https://img.shields.io/packagecontrol/dt/JavaScript%20Completions.svg)](https://packagecontrol.io/packages/JavaScript%20Completions) 
-[![Package Control](https://img.shields.io/packagecontrol/dd/JavaScript%20Completions.svg)](https://packagecontrol.io/packages/JavaScript%20Completions)
-
-JavaScript Completions for sublime text
-
-It helps you to write your scripts more quickly with hints and completions.
-
-<h2>ANNOUNCEMENT - NEW PLUGIN "JavaScript Enhancements" DEVELOPMENT</h2>
 <p>
 
-I'm developing a new plugin with new features thanks to <strong><a href="https://github.com/facebook/flow">Flow</a></strong> (javascript static type checker from Facebook).
-<strong>After its first release, I will no longer support "JavaScript Completions" plugin. I will focus only on this new one</strong>.
+I developed a new plugin with new features thanks to <strong><a href="https://github.com/facebook/flow">Flow</a></strong> (javascript static type checker from Facebook).
+<strong>So, I will NO LONGER SUPPORT "JavaScript Completions" plugin, except in particular cases. I'm going to focus only on this new one!</strong>
 
-You can find it on: <a href="https://github.com/pichillilorenzo/JavaScriptEnhancements">https://github.com/pichillilorenzo/JavaScriptEnhancements</a>
+You can find it on: 👉👉 <a href="https://github.com/pichillilorenzo/JavaScriptEnhancements">https://github.com/pichillilorenzo/JavaScriptEnhancements</a> 👈👈
 
-This new plugin will offer not only a <strong>better autocomplete</strong> but a lot of <strong>features</strong> about creating, 
+This new plugin offers not only a <strong>better autocomplete</strong> but a lot of <strong>features</strong> about creating, 
 developing and managing <strong>javascript projects</strong>, such as:
 
 - Cordova projects (run cordova emulate, build, compile, serve, etc. directly from Sublime Text!)
@@ -29,11 +20,11 @@ developing and managing <strong>javascript projects</strong>, such as:
 - JavaScript real-time errors
 - etc.
 
+You could use it also in <strong>existing projects</strong>!! (see the Wiki - https://github.com/pichillilorenzo/JavaScriptEnhancements/wiki)
+
 It will turn Sublime Text into a <strong>JavaScript IDE</strong> like!
 
-<span style="text-decoration: underline;">I'm going to release a first testable version these days, so <strong>WATCH</strong> the repository to stay tuned for any news!</span>
-
-<h3>OS supported now by this new plugin</h3>
+<h3>OS SUPPORTED NOW by this new plugin</h3>
 
 - Linux (64-bit)
 - Mac OS X 
@@ -44,6 +35,16 @@ Thanks for your support!!!
 </p>
 
 <hr>
+
+<h2>JavaScript Completions</h2>
+
+[![Sublime Text](https://img.shields.io/badge/Sublime%20Text-2%20%2F%203-brightgreen.svg)](https://www.sublimetext.com/)
+[![Package Control](https://img.shields.io/packagecontrol/dt/JavaScript%20Completions.svg)](https://packagecontrol.io/packages/JavaScript%20Completions) 
+[![Package Control](https://img.shields.io/packagecontrol/dd/JavaScript%20Completions.svg)](https://packagecontrol.io/packages/JavaScript%20Completions)
+
+JavaScript Completions for sublime text
+
+It helps you to write your scripts more quickly with hints and completions.
 
 <strong>jQuery</strong> and <strong>NativeScript</strong> completions disabled by default!
 You can enable them on Preferences -> Package Settings -> JavaScript Completions.
