@@ -29,6 +29,10 @@ It will turn Sublime Text into a <strong>JavaScript IDE</strong> like!
 - Linux (64-bit)
 - Mac OS X 
 
+#### For Windows users
+
+For Windows support I will create a **degraded** mode without the use of **[TerminalView](https://github.com/Wramberg/TerminalView)** plugin these days, so **WATCH** the repository. Unfortunately the TerminalView plugin supports only **Linux-based OS** 😞 . Has someone any advice or idea about that? Is there something similar to the TerminalView plugin for Windows?? Thanks!
+
 Email me for any questions or doubts about this new project on: <a href="mailto:pichillilorenzo@gmail.com">pichillilorenzo@gmail.com</a>
 
 Thanks for your support!!!
