@@ -23,7 +23,7 @@ developing and managing javascript projects, such as:
 - Yeoman generators
 - Local bookmarks project
 - JavaScript real-time errors
-- etc.
+- etc. (I will add also React Native and NativeScript support)
 
 You could use it also in existing projects!! (see the Wiki - https://github.com/pichillilorenzo/JavaScriptEnhancements/wiki)
 
@@ -32,15 +32,9 @@ It will turn Sublime Text into a JavaScript IDE like!
 ## OS SUPPORTED NOW by this new plugin:
 =======================================
 
-- Linux (64-bit)
-- Mac OS X 
-
-For WINDOWS users
-=================
-
-For WINDOWS SUPPORT I will create a degraded mode without the use of TerminalView plugin these days, so WATCH the repository. 
-Unfortunately the TerminalView plugin supports only Linux-based OS 😞 . 
-Has someone any advice or idea about that? Is there something similar to the TerminalView plugin for Windows?? Thanks!
+👉 Linux (64-bit)
+👉 Mac OS X 
+👉 Windows (64-bit): released without the use of TerminalView plugin. For each feature (like also creating a project) will be used the cmd.exe shell (so during the creation of a project don't close it until it finishes!). Unfortunately the TerminalView plugin supports only Linux-based OS 😞 . Has someone any advice or idea about that? Is there something similar to the TerminalView plugin for Windows?? Thanks!
 
 
 Email me for any questions or doubts about this new project on: pichillilorenzo@gmail.com

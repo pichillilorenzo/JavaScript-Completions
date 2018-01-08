@@ -1,0 +1,43 @@
+v2.6.97
+
+
+🎉🎉 ANNOUNCEMENT - NEW PLUGIN "JavaScript Enhancements" RELEASED 🎉🎉
+=======================================================================
+
+🎉🎉 FINALLY ADDED SUPPORT ALSO FOR WINDOWS 🎉🎉
+=================================================
+
+I developed a new plugin with new features thanks to Flow (javascript static type checker from Facebook).
+
+So, I will NO LONGER SUPPORT "JavaScript Completions" plugin, except in particular cases. 
+I'm going to focus only on this new one!
+
+You can find it on: 👉👉 https://github.com/pichillilorenzo/JavaScriptEnhancements 👈👈
+
+This new plugin offers not only a better autocomplete but a lot of features about creating, 
+developing and managing javascript projects, such as:
+
+- Cordova projects (run cordova emulate, build, compile, serve, etc. directly from Sublime Text!)
+- Ionic v1 and v2 projects (same as Cordova projects!)
+- Angular v1 and v2 projects
+- React projects
+- Express projects
+- Yeoman generators
+- Local bookmarks project
+- JavaScript real-time errors
+- etc. (I will add also React Native and NativeScript support)
+
+You could use it also in existing projects!! (see the Wiki - https://github.com/pichillilorenzo/JavaScriptEnhancements/wiki)
+
+It will turn Sublime Text into a JavaScript IDE like!
+
+## OS SUPPORTED NOW by this new plugin:
+=======================================
+
+👉 Linux (64-bit)
+👉 Mac OS X 
+👉 Windows (64-bit): released without the use of TerminalView plugin. For each feature (like also creating a project) will be used the cmd.exe shell (so during the creation of a project don't close it until it finishes!). Unfortunately the TerminalView plugin supports only Linux-based OS 😞 . Has someone any advice or idea about that? Is there something similar to the TerminalView plugin for Windows?? Thanks!
+
+Email me for any questions or doubts about this new project on: pichillilorenzo@gmail.com
+
+Thanks for your support!!!
