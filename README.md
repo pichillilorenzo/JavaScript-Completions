@@ -7,18 +7,20 @@ I developed a new plugin with new features thanks to <strong><a href="https://gi
 
 You can find it on: 👉👉 <a href="https://github.com/pichillilorenzo/JavaScriptEnhancements">https://github.com/pichillilorenzo/JavaScriptEnhancements</a> 👈👈
 
-This new plugin offers not only a <strong>better autocomplete</strong> but a lot of <strong>features</strong> about creating, 
-developing and managing <strong>javascript projects</strong>, such as:
+This new plugin offers not only a <strong>BETTER AUTOCOMPLETE</strong> but a lot of <strong>features</strong> about creating, 
+developing and managing <a href="https://github.com/pichillilorenzo/JavaScriptEnhancements/wiki/Creating-a-JavaScript-Project"><strong>JavaScript projects</strong></a>, such as:
 
+- <a href="https://github.com/pichillilorenzo/JavaScriptEnhancements/wiki/Errors-and-linting">JavaScript real-time errors</a>
+- <a href="https://github.com/pichillilorenzo/JavaScriptEnhancements/wiki/Code-Refactoring">Code Refactoring</a>
+- <a href="https://github.com/pichillilorenzo/JavaScriptEnhancements/wiki/Features#bookmarks-project">Local bookmarks project</a>
 - Cordova projects (run cordova emulate, build, compile, serve, etc. directly from Sublime Text!)
-- Ionic v1 and v2 projects (same as Cordova projects!)
-- Angular v1 and v2 projects
-- React projects
-- Express projects
+- Ionic v1 and v2 (it includes also v3) projects (same as Cordova projects!)
+- Angular v1 and v2 (it includes also v4 and v5) projects
+- React projects (only about the creation at this moment)
+- React Native projects (only about the creation at this moment. I will add also **NativeScript** support)
+- Express projects (only about the creation at this moment)
 - Yeoman generators
-- Local bookmarks project
-- JavaScript real-time errors
-- etc. (I will add also **React Native** and **NativeScript** support)
+- etc.
 
 You could use it also in <strong>existing projects</strong>!! (see the Wiki - https://github.com/pichillilorenzo/JavaScriptEnhancements/wiki)
 
@@ -157,7 +159,7 @@ You can use this feature in HTML, CSS and JavaScript context!
 
 Just put the cursor on the word you want to check, "right-click" -> <code>"Can I use?"</code> and it will appear an input panel with all items that have a name matching with the word.
 
-You can use key-map: <code>ctrl+alt+w</code>. Key-Map list: Preferences -> Package Settings ->  JavaScript Completions -> Key Bindings - Default.
+You can use key-map: <code>ctrl+alt+w</code> (<code>super+alt+w</code> on Windows). Key-Map list: Preferences -> Package Settings ->  JavaScript Completions -> Key Bindings - Default.
 
 After selecting an item from the list, it will appear a popup with all information from the [http://caniuse.com](http://caniuse.com) support tables.
 
