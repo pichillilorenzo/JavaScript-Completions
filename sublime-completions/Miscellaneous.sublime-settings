@@ -51,11 +51,11 @@
     ],
     [
       "for_of",
-      "for (${1:variable} of object) {\n\t${2:// statement}\n}"
+      "for (${1:variable} of ${2:object}) {\n\t${0:// statement}\n}"
     ],
     [
       "for_in",
-      "for (${1:variable} in object) {\n\t${2:// statement}\n}"
+      "for (${1:variable} in ${2:object}) {\n\t${0:// statement}\n}"
     ],
     [
       "do_while",
