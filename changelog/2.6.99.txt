@@ -1,0 +1,49 @@
+v2.6.99
+
+- Merged pull request #50 from shigg1120/master "Change cursor positions for-for_in and for_of"
+
+
+🎉🎉 ANNOUNCEMENT - NEW PLUGIN "JavaScript Enhancements" RELEASED 🎉🎉
+=======================================================================
+
+I developed a new plugin with new features thanks to Flow (javascript static type checker from Facebook).
+
+So, I will NO LONGER SUPPORT "JavaScript Completions" plugin, except in particular cases. 
+I'm going to focus only on this new one!
+
+You can find it on: 👉👉 https://github.com/pichillilorenzo/JavaScriptEnhancements 👈👈
+
+This new plugin offers not only a BETTER AUTOCOMPLETE but a lot of FEATURES about creating, 
+developing and managing javascript projects, such as:
+
+- JavaScript real-time errors
+- Code Refactoring
+- Local bookmarks project
+- Cordova projects (run cordova emulate, build, compile, serve, etc. directly from Sublime Text!)
+- Ionic v1 and v2 (it includes also v3) projects (same as Cordova projects!)
+- Angular v1 and v2 (it includes also v4 and v5) projects
+- Vue projects (only about the creation at this moment)
+- React projects (only about the creation at this moment)
+- React Native projects (only about the creation at this moment. I will add also **NativeScript** support)
+- Express projects (only about the creation at this moment)
+- Yeoman generators
+- etc.
+
+You could use it also in existing projects!! 
+
+SEE the Wiki - https://github.com/pichillilorenzo/JavaScriptEnhancements/wiki
+to get the complete list of the features that it offers!
+
+It will turn Sublime Text into a JavaScript IDE like!
+=====================================================
+
+## OS SUPPORTED NOW by this new plugin:
+=======================================
+
+👉 Linux (64-bit)
+👉 Mac OS X 
+👉 Windows (64-bit)
+
+Email me for any questions or doubts about this new project on: pichillilorenzo@gmail.com
+
+Thanks for your support!!!
