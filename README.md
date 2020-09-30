@@ -1,4 +1,4 @@
-<h1>🎉🎉 ANNOUNCEMENT - NEW PLUGIN "JavaScript Enhancements" RELEASED 🎉🎉</h1>
+<h2><b>🎉🎉 ANNOUNCEMENTS - NEW PLUGIN "JavaScript Enhancement" RELEASED 🎉🎉</b></h2>
 
 <p>
 
