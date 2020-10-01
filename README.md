@@ -97,7 +97,7 @@ You can ENABLE or DISABLE completions! Just go to Preferences -> Package Setting
 
 You can check the description of function/property/method by selecting the word (or, in case, it will take the first word near the blinking cursor) you want find. "right-click" on your mouse and click on "Find JavaScript Description".
 
-It will show a popup with the list of possible descriptions or, in some case, the direct description. 
+It will show a popup with the list of possible descriptions or, in some case, the direct description of the perticular material. 
 
 Key-Map list: Preferences -> Package Settings ->  JavaScript Completions -> Key Bindings - Default.
 
