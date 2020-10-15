@@ -58,7 +58,7 @@ You can enable them on Preferences -> Package Settings -> JavaScript Completions
 It will be downloaded automatically with nodejs!
 
 Features list:
-- <a href="#find-javascript-description">"Find JavaScript Description" Feature</a>
+- <a href="#find-javascript-">"Find JavaScript Description" Feature</a>
 - <a href="#on-hover-description">"On Hover Description" Feature</a>
 - <a href="#evaluate-javascript">"Evaluate JavaScript" Feature</a>
 - <a href="#can-i-use">"Can I use?" Feature</a>
